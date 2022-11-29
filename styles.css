@@ -1,0 +1,180 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* Heading */
+
+.big-heading {
+    font-family:  "Montserrat";
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;  /*navbar has only 4.5rem padding on the bottom */
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;   /* Make the items have more space in between, 0 top and bottom, 18px left and right */
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Light';
+}
+
+/* Download Buttons  */
+
+.download-button {
+    margin: 5% 3% 5% 0;   /* add a new class inside the html button, the space between the buttons 5% top, 3% right, 5% left, 0 bottom  */
+}
+
+/* Title Section */
+
+#title .container-fluid {
+    padding: 3% 15% 7%;     /*the container fluid of the title section applied */
+    text-align: left;
+}
+
+/* Title Image */
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);  /*add a class to html img to target that, will rotate 25deg to the right */
+    position: absolute;
+    right: 30%;
+}
+
+.title-image-container {
+    position: relative;
+}
+
+/* Features */
+
+#features {
+   
+    position: relative;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.feature-box {
+    padding: 5%;        /*text will look shorter */
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;   /*create a class and target it, makes more room below the icon */
+}
+
+.icon:hover {
+    color: #ff4c68;    /*the color of the icon will change when you hover on it */
+}
+
+/* Testimonials section */
+
+#testimonials {
+    background-color: #ef8172; 
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;           /*the img will be smaller, round, and some space between */  
+}
+
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+
+/* Footer Section */
+
+#footer {
+    background-color: #fff;
+}
+
+.icons {
+    margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;    /*when screen is 1028px or smaller, the text will align at center */
+    }
+
+    .title-image {
+        position: static;      /*when screen is 1028px or smaller, the img will show at default position */
+        transform: rotate(0);    /*when screen is 1028px or smaller, the img will rotate back to 0deg */
+    }
+}
